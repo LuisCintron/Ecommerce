@@ -5,9 +5,10 @@ import { createStore, applyMiddleware } from "redux";
 import { BrowserRouter } from "react-router-dom";
 import reducers from "./reducers";
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
 
-import "./style/main.scss";
+const createStoreWithMiddleware = applyMiddleware()(createStore);
+import './style/main.scss';
+
 import Layout from "./components/layout";
 
 function main() {
