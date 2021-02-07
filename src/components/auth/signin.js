@@ -6,7 +6,7 @@ class SignIn extends Component {
   render() {
     return (
       <div className='sign-in'>
-        <SignInFrom className='sign-in__form' />
+        <SignInForm className='sign-in__form' />
       </div>
     )
   }
