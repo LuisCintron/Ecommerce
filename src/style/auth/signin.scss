@@ -6,5 +6,8 @@
   }
 }
 
-.signin-form {
+.sign-in-form {
+  &__line {
+    border-top: 1px solid #ccc;
+  }
 }
