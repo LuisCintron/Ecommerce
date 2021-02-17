@@ -2,10 +2,6 @@
   display: grid;
   grid-gap: 6.5px;
 
-  & > * {
-    padding: 20px;
-  }
-
   &__label {
     font-size: 14px;
   }
@@ -13,10 +9,12 @@
     box-sizing: border-box;
     height: 39px;
     width: 426px;
+    border: none;
     border: 1px solid #e6e6e6;
     border-radius: 20px;
     color: #333333;
     font-size: 18px;
+    padding-left: 15px;
   }
 }
 
@@ -28,7 +26,6 @@
     background-color: #00cb79;
     font-size: 16px;
     color: white;
-
     &:focus {
       outline: none;
     }
