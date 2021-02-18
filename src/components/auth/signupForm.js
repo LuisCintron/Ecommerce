@@ -38,7 +38,7 @@ class SignUpForm extends Component {
         <Field className='sign-up-form__password'
           type='password' title='Password' placeholder='Password' name='password' component={FormInput} />
 
-        <Field className='sign-up-form__confirm-password'
+        <Field className='sign-up-form__confirm'
           type='password' title='Confirm Password' placeholder='Confirm password' name='confirm' component={FormInput} />
 
         <div className='sign-up-form__line'></div>
